@@ -1,0 +1,183 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Document</title>
+    <style>
+        .logo {
+            height: 44px;
+            width: 44px;
+        }
+
+        #main-navigation-option-3 {
+            background-color: purple;
+            height: 12%;
+        }
+
+        ul {
+            display: inline;
+        }
+
+        a {
+            float: right;
+
+            color: white;
+            padding: 24px 143px;
+            margin: -31px 16px;
+            text-decoration: none;
+        }
+        .image2{
+            height: 41%;
+            width: 100%;
+        }
+        main{
+           
+            display: flex;
+            flex-direction: row;
+            margin: 0px 0px;
+            padding: 0px 0px;
+            gap: 1em;
+            justify-content: center;
+            width: 60%;
+            order:1;
+        }
+       .placeholder{
+        align-items: center;
+       }
+       article{
+        display: block;
+        border: 1px solid;
+        margin: 0px 0px ;
+        padding: 0px 0px;
+       }
+       p{
+        text-align: center;
+       }
+      
+
+       
+      .aside{
+        width: 30%;
+        order:2;
+        left: 1200px;
+        position: absolute;
+      }
+      .price{
+        background-color: black;
+        color: aliceblue;
+        padding: 1em;
+        text-align: center;
+        font-weight: bold;
+      }
+      section{
+        outline: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 1em;
+        justify-content: center;
+
+      }
+      .content{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1%;
+      }
+      h2{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: larger;
+        
+      }
+      aside{
+        border: 1px solid black;
+      }
+      .list2{
+        background-color: gray;
+      }
+      .list4{
+        background-color: gray;
+      }
+      .list6
+      {
+        background-color: gray;
+      }
+      
+        
+    </style>
+</head>
+
+<body id="layout-option-1">
+    <!-- MAIN NAVIGATION -->
+    <nav id="main-navigation-option-3">
+        <ul>
+
+            <img class="logo" src="./images/html5.png" alt="HTML5 logo">
+
+
+            <li>
+                <a class="blog" href="#">Blog</a>
+
+            </li>
+
+            <li>
+                <a class="products" href="#">Products</a>
+
+            </li>
+            <a class="about" href="#">About</a>
+
+            <li>
+
+            </li>
+        </ul>
+    </nav>
+
+
+    <!-- HEADER -->
+    <header id="header-option-2"><img class="image2" src="./stubs/example-header-option-2.png" alt="placeholder"></header>
+   <div class="content">
+    <main>
+        <section>
+                <img class="placeholder1" src="./images/200x200.png" alt="placeholder">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, sunt magni? Praesentium.</p>
+                <footer class="price">$17.99</footer>
+    
+        </section>
+        <section>
+                <img  class="placeholder2" src="./images/200x200.png" alt="placeholder">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, sunt magni? Praesentium.</p>
+                <footer class="price">$17.99</footer>
+    
+            </section>
+        <section>
+                <img class="placeholder3" src="./images/200x200.png" alt="placeholder">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, sunt magni? Praesentium.</p>
+                <footer class="price">$17.99</footer>
+    
+           </section>
+            
+    </main>
+    <div class="aside">
+    <aside>
+        <h2>Beside the Aside</h2>
+        <ul>
+            <li>Sub Option 1</li>
+            <li class="list2">Sub Option 2</li>
+            <li>Sub Option 3</li>
+            <li class="list4">Sub Option 4</li>
+            <li>Sub Option 5</li>
+            <li class="list6">Sub Option 6</li>
+           
+        </ul>
+    </aside>
+   </div>
+   </div>
+
+
+    <footer id="footer-option-3"><img class="image3" src="./stubs/example-footer-option-3.png" alt="placeholder"></footer>
+
+</body>
+
+</html>
